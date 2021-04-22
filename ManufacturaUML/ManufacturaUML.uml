@@ -15,10 +15,10 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_7pdTgJ0-EeuFFPwcascsUw" name="MaquinaLavado">
       <generalization xmi:type="uml:Generalization" xmi:id="_x2xowJ1PEeuFFPwcascsUw" general="_VWJmEJ09EeuFFPwcascsUw"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_zWQRwJ0_EeuFFPwcascsUw" name="capacidadLitros">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zWQRwJ0_EeuFFPwcascsUw" name="capacidadLitros" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_z-cTIJ0_EeuFFPwcascsUw" name="tiemProLavadoxbotella">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_z-cTIJ0_EeuFFPwcascsUw" name="tiemProLavadoxbotella" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_2RXqQKC8Eeu-ysfXsVIWYw" name="costoLavadodeBotella ">
@@ -29,10 +29,10 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_7_QkYJ0-EeuFFPwcascsUw" name="MaquinaLlenadoEnvasado">
       <generalization xmi:type="uml:Generalization" xmi:id="_c-GJsJ1PEeuFFPwcascsUw" general="_VWJmEJ09EeuFFPwcascsUw"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_1HkeYJ0_EeuFFPwcascsUw" name="envaseLlenadoxminuto">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1HkeYJ0_EeuFFPwcascsUw" name="envaseLlenadoxminuto" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_1lw2QJ0_EeuFFPwcascsUw" name="listaRegulacionml" isUnique="false">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1lw2QJ0_EeuFFPwcascsUw" name="listaRegulacionml" visibility="private" isUnique="false">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_1ComQKC8Eeu-ysfXsVIWYw" name="costollenadoyenvasadodeBotella">
@@ -43,10 +43,10 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_8aGtUJ0-EeuFFPwcascsUw" name="MaquinaEmpaquetado">
       <generalization xmi:type="uml:Generalization" xmi:id="_XR-UYJ1PEeuFFPwcascsUw" general="_VWJmEJ09EeuFFPwcascsUw"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_2ZNFYJ0_EeuFFPwcascsUw" name="tipoEmpaquetado">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2ZNFYJ0_EeuFFPwcascsUw" name="tipoEmpaquetado" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_2xqBoJ0_EeuFFPwcascsUw" name="cantidadEmpaquesxmn">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2xqBoJ0_EeuFFPwcascsUw" name="cantidadEmpaquesxmn" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_0NrUMKC8Eeu-ysfXsVIWYw" name="costodeEmpaquetado">
